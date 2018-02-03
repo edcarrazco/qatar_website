@@ -1,0 +1,225 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-10 16:32+0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: motor-custom-types.php:31 motor-custom-types.php:32
+#: motor-custom-types.php:33
+msgid "Events"
+msgstr ""
+
+#: motor-custom-types.php:67 motor-custom-types.php:68
+#: motor-custom-types.php:69
+msgid "Gallery"
+msgstr ""
+
+#: motor-custom-types.php:101
+msgid "Categories"
+msgstr ""
+
+#: motor-custom-types.php:102
+msgid "Category"
+msgstr ""
+
+#: motor-custom-types.php:129 motor-custom-types.php:131
+msgid "Brands"
+msgstr ""
+
+#: motor-custom-types.php:130
+msgid "Brand"
+msgstr ""
+
+#: motor-custom-types.php:132 motor-custom-types.php:133
+msgid "Add New Brand"
+msgstr ""
+
+#: motor-custom-types.php:167
+msgid "Brand Image"
+msgstr ""
+
+#: motor-custom-types.php:175
+msgid "Choose Image"
+msgstr ""
+
+#: motor-custom-types.php:176
+msgid "Remove Image"
+msgstr ""
+
+#: motor-custom-types.php:210 motor-custom-types.php:212
+msgid "Badges"
+msgstr ""
+
+#: motor-custom-types.php:211
+msgid "Badge"
+msgstr ""
+
+#: motor-custom-types.php:213 motor-custom-types.php:214
+msgid "Add New Badge"
+msgstr ""
+
+#: motor-custom-types.php:247
+msgid "Badge Color"
+msgstr ""
+
+#: motor-custom-types.php:283 motor-custom-types.php:285
+msgid "Parts Filter"
+msgstr ""
+
+#: motor-custom-types.php:284
+msgid "Parts Filter "
+msgstr ""
+
+#: motor-custom-types.php:286 motor-custom-types.php:287
+msgid "Add New Parts Filter"
+msgstr ""
+
+#: plugins/woocommerce-products-per-page/woocommerce-products-per-page.php:214
+msgid "Settings"
+msgstr ""
+
+#: plugins/woocommerce-products-per-page/includes/class-wppp-front-end.php:83
+msgid "Per Page"
+msgstr ""
+
+#: plugins/woocommerce-products-per-page/includes/class-wppp-front-end.php:91
+#: plugins/woocommerce-products-per-page/includes/class-wppp-front-end.php:102
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: plugins/woocommerce-products-per-page/includes/class-wppp-front-end.php:92
+#: plugins/woocommerce-products-per-page/includes/class-wppp-front-end.php:103
+msgid "All"
+msgstr ""
+
+#: plugins/woocommerce-products-per-page/includes/admin/class-wppp-admin-settings.php:64
+msgid "List of dropdown options"
+msgstr ""
+
+#: plugins/woocommerce-products-per-page/includes/admin/class-wppp-admin-settings.php:65
+msgid "Seperated by spaces <em>(-1 for all products)</em>"
+msgstr ""
+
+#: plugins/woocommerce-products-per-page/includes/admin/class-wppp-admin-settings.php:72
+msgid "Default products per page"
+msgstr ""
+
+#: plugins/woocommerce-products-per-page/includes/admin/class-wppp-admin-settings.php:73
+msgid "-1 for all products"
+msgstr ""
+
+#: plugins/woocommerce-products-per-page/includes/admin/class-wppp-admin-settings.php:81
+msgid "First category page"
+msgstr ""
+
+#: plugins/woocommerce-products-per-page/includes/admin/class-wppp-admin-settings.php:82
+msgid ""
+"When checked and a new number of PPP is selected, the visitor will be send "
+"to the first page of the product category"
+msgstr ""
+
+#: plugins/woocommerce-products-per-page/includes/admin/class-wppp-admin-settings.php:89
+msgid "HTTP method"
+msgstr ""
+
+#: plugins/woocommerce-products-per-page/includes/admin/class-wppp-admin-settings.php:90
+msgid ""
+"GET sends the products per page via the url, POST does this on the background"
+msgstr ""
+
+#: plugins/woocommerce-products-per-page/includes/admin/class-wppp-admin-settings.php:96
+msgid "POST"
+msgstr ""
+
+#: plugins/woocommerce-products-per-page/includes/admin/class-wppp-admin-settings.php:97
+msgid "GET"
+msgstr ""
+
+#: widgets/widget-badges.php:7
+msgid "Motor Badges"
+msgstr ""
+
+#: widgets/widget-badges.php:10
+msgid "Badges List"
+msgstr ""
+
+#: widgets/widget-badges.php:108 widgets/widget-brands.php:108
+#: widgets/widget-calendar.php:111 widgets/widget-featured-products.php:132
+#: widgets/widget-featured.php:122
+msgid "Title:"
+msgstr ""
+
+#: widgets/widget-badges.php:112 widgets/widget-brands.php:112
+#: widgets/widget-featured.php:126
+msgid "Posts Count:"
+msgstr ""
+
+#: widgets/widget-brands.php:7
+msgid "Motor Brands"
+msgstr ""
+
+#: widgets/widget-brands.php:10
+msgid "Brands List"
+msgstr ""
+
+#: widgets/widget-calendar.php:7
+msgid "Motor Events Calendar"
+msgstr ""
+
+#: widgets/widget-calendar.php:10
+msgid "Calendar with Events"
+msgstr ""
+
+#: widgets/widget-featured-products.php:7
+msgid "Motor Featured Products"
+msgstr ""
+
+#: widgets/widget-featured-products.php:10
+msgid "Featured Products"
+msgstr ""
+
+#: widgets/widget-featured-products.php:136
+msgid "Products Count:"
+msgstr ""
+
+#: widgets/widget-featured-products.php:140
+msgid "Product IDs"
+msgstr ""
+
+#: widgets/widget-featured-products.php:140 widgets/widget-featured.php:130
+msgid "Comma separated e.g.: 5, 8, 10"
+msgstr ""
+
+#: widgets/widget-featured-products.php:140
+msgid "Or leave empty to show newness products"
+msgstr ""
+
+#: widgets/widget-featured.php:7
+msgid "Motor Featured Posts"
+msgstr ""
+
+#: widgets/widget-featured.php:10
+msgid "Featured Blog Posts"
+msgstr ""
+
+#: widgets/widget-featured.php:130
+msgid "Posts IDs"
+msgstr ""
+
+#: widgets/widget-featured.php:130
+msgid "Or leave empty to show newness posts"
+msgstr ""
