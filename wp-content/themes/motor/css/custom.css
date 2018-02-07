@@ -1,0 +1,98 @@
+/**CUSTOM CSS STYLES START HERE**/
+/*FONT SANSATION*/
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('../fonts/sansation/Sansation-BoldItalic.eot');
+    src: url('../fonts/sansation/Sansation-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sansation/Sansation-BoldItalic.woff2') format('woff2'),
+        url('../fonts/sansation/Sansation-BoldItalic.woff') format('woff'),
+        url('../fonts/sansation/Sansation-BoldItalic.ttf') format('truetype'),
+        url('../fonts/sansation/Sansation-BoldItalic.svg#Sansation-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('../fonts/sansation/Sansation-Regular.eot');
+    src: url('../fonts/sansation/Sansation-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sansation/Sansation-Regular.woff2') format('woff2'),
+        url('../fonts/sansation/Sansation-Regular.woff') format('woff'),
+        url('../fonts/sansation/Sansation-Regular.ttf') format('truetype'),
+        url('../fonts/sansation/Sansation-Regular.svg#Sansation-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('../fonts/sansation/Sansation-LightItalic.eot');
+    src: url('../fonts/sansation/Sansation-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sansation/Sansation-LightItalic.woff2') format('woff2'),
+        url('../fonts/sansation/Sansation-LightItalic.woff') format('woff'),
+        url('../fonts/sansation/Sansation-LightItalic.ttf') format('truetype'),
+        url('../fonts/sansation/Sansation-LightItalic.svg#Sansation-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('../fonts/sansation/Sansation-Light.eot');
+    src: url('../fonts/sansation/Sansation-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sansation/Sansation-Light.woff2') format('woff2'),
+        url('../fonts/sansation/Sansation-Light.woff') format('woff'),
+        url('../fonts/sansation/Sansation-Light.ttf') format('truetype'),
+        url('../fonts/sansation/Sansation-Light.svg#Sansation-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('../fonts/sansation/Sansation-Bold.eot');
+    src: url('../fonts/sansation/Sansation-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sansation/Sansation-Bold.woff2') format('woff2'),
+        url('../fonts/sansation/Sansation-Bold.woff') format('woff'),
+        url('../fonts/sansation/Sansation-Bold.ttf') format('truetype'),
+        url('../fonts/sansation/Sansation-Bold.svg#Sansation-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('../fonts/sansation/Sansation-Italic.eot');
+    src: url('../fonts/sansation/Sansation-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sansation/Sansation-Italic.woff2') format('woff2'),
+        url('../fonts/sansation/Sansation-Italic.woff') format('woff'),
+        url('../fonts/sansation/Sansation-Italic.ttf') format('truetype'),
+        url('../fonts/sansation/Sansation-Italic.svg#Sansation-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+body, body .footer-contact{
+    font-family: 'Sansation', sans-serif;
+}
+textarea, button, input[type=password], input[type=email], input[type=submit], input[type=text]{
+    font-family: 'Sansation', sans-serif;
+}
+.page-styling h1, .page-styling h2, .page-styling h3, .page-styling h4, .page-styling h5, .page-styling h6{
+    font-family: 'Sansation', sans-serif!important;
+}
+.modal-form h1, .modal-form h2, .modal-form h3, .modal-form h4, .modal-form h5, .modal-form h6{
+    font-family: 'Sansation', sans-serif!important; 
+}
+.pricing-table .pricing-table-price{
+    font-family: 'Sansation', sans-serif!important; 
+}
+/*HEADER*/
+/*INFO BLOCK*/
+.infoBlock .getspec .getspec-cont h3{
+    font-size: 40px;
+}
+.infoBlock .getspec .getspec-cont p{
+    font-size: 35px;
+}

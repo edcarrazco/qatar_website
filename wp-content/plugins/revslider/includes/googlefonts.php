@@ -2060,7 +2060,7 @@ $googlefonts = array(
 'variants' => array('200', '300', '400', '500', '600', '700', '800'),
 'subsets' => array('latin-ext', 'gujarati', 'latin')
 ),
-'Sansita' => array(
+'Sansation' => array(
 'variants' => array('400', 'italic', '700', '700italic', '800', '800italic', '900', '900italic'),
 'subsets' => array('latin-ext', 'latin')
 ),
