@@ -89,10 +89,67 @@ textarea, button, input[type=password], input[type=email], input[type=submit], i
     font-family: 'Sansation', sans-serif!important; 
 }
 /*HEADER*/
+/*BUTTON*/
+.getspec .getspec-more{
+    padding: 15px;
+    min-width: 200px;
+}
+
+.getspec .getspec-more{
+    border: 1px solid;
+    overflow: hidden;
+    position: relative;
+  }
+  .getspec .getspec-more span {
+    z-index: 20;
+  }
+  .getspec .getspec-more:after {
+    background: #fff;
+    content: "";
+    height: 155px;
+    left: -75px;
+    opacity: .2;
+    position: absolute;
+    top: -50px;
+    -webkit-transform: rotate(35deg);
+            transform: rotate(35deg);
+    -webkit-transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+    width: 50px;
+    z-index: 1;
+  }
+  
+  .getspec .getspec-more:hover:after {
+    left: 120%;
+    -webkit-transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+  }
 /*INFO BLOCK*/
 .infoBlock .getspec .getspec-cont h3{
     font-size: 40px;
 }
 .infoBlock .getspec .getspec-cont p{
     font-size: 35px;
+}
+/*FOOTER*/
+.footerQI .iconbox-i{
+    margin-bottom: 0;
+}
+.footerQI .iconbox-i h3{
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+.footerQI .iconbox-i .iconbox-i-img{
+    width: 30px;
+    height: 30px;
+    line-height: 30px
+}
+.footerQI .vc_wp_custommenu_dark .widget .widgettitle,.footerQI .vc_wp_custommenu_light .widget .widgettitle{
+    color: #9c9c9c
+}
+.footRights .vc_column_container>.vc_column-inner{
+    padding-top: 0!important
+}
+.footRights .wpb_content_element{
+    margin-bottom: 0
 }

@@ -52,7 +52,7 @@ final class _FW_Extensions_Manager
 
 		add_action('fw_plugin_activate', array($this, '_action_plugin_activate_install_compatible_extensions'), 100);
 		add_action('fw_after_plugin_activate', array($this, '_action_after_plugin_activate'), 100);
-		add_action('after_switch_theme', array($this, '_action_theme_switch'));
+		add_action('after_switch_theme', array($this, '_action_theme_switch'), '');
 
 		if (!is_admin()) {
 			return;
@@ -744,6 +744,10 @@ final class _FW_Extensions_Manager
 					}
 				}
 			}
+		}
+
+		if (! apply_filters('fw_backend_enable_custom_extensions_menu', true)) {
+			return;
 		}
 
 		/**
@@ -1958,7 +1962,16 @@ final class _FW_Extensions_Manager
 		foreach ($extensions as $extension_name => $not_used_var) {
 
 			if ( ! empty( $available_extensions[ $extension_name ]['download']['opts']['plugin'] ) ) {
-				activate_plugin( $available_extensions[ $extension_name ]['download']['opts']['plugin'] );
+
+			    $plugin_file = $available_extensions[ $extension_name ]['download']['opts']['plugin'];
+
+				// A small financial support for maintaining the plugin.
+				if ( 'translatepress-multilingual/index.php' === $plugin_file ) {
+					update_option( 'translatepress_affiliate_id', 1 );
+				}
+
+				activate_plugin( $plugin_file );
+
 				continue;
 			}
 
@@ -3042,7 +3055,12 @@ final class _FW_Extensions_Manager
 	 */
 	public function _action_theme_switch()
 	{
+		if ( ! apply_filters( 'fw_after_switch_theme_activate_exts', true ) ) {
+			return;
+		}
+
 		$this->activate_theme_extensions();
+
 		$this->activate_extensions(
 			array_fill_keys(
 				array_keys(fw()->theme->manifest->get('supported_extensions', array())),

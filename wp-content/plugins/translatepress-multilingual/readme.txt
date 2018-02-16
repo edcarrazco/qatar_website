@@ -3,8 +3,8 @@ Contributors: cozmoslabs, razvan.mo, madalin.ungureanu, cristophor
 Donate link: https://www.cozmoslabs.com/
 Tags: translate, translation, multilingual, automatic translation, front-end translation, google translate, bilingual
 Requires at least: 3.1.0
-Tested up to: 4.9.2
-Stable tag: 1.1.4
+Tested up to: 4.9.4
+Stable tag: 1.1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -52,6 +52,10 @@ TranslatePress - Multilingual has a range of premium [Add-ons](https://translate
 * [Translator Accounts](https://translatepress.com/docs/addons/translator-accounts/?utm_source=wp.org&utm_medium=tp-description-page&utm_campaign=TPFree) - create or allow existing users to translate the site without admin rights
 * [Browse as User Role](https://translatepress.com/docs/addons/browse-as-role/?utm_source=wp.org&utm_medium=tp-description-page&utm_campaign=TPFree) - view and translate content that is visible only to a particular user role
 * [Navigation Based on Language](https://translatepress.com/docs/addons/navigate-based-language/?utm_source=wp.org&utm_medium=tp-description-page&utm_campaign=TPFree) - configure and display different menu items for different languages
+
+**Free Add-ons**
+
+* [Language by GET parameter](https://translatepress.com/docs/addons/language-get-parameter/?utm_source=wp.org&utm_medium=tp-description-page&utm_campaign=TPFree) -  enables the language in the URL to be encoded as a GET Parameter
 
 = Website =
 
@@ -108,6 +112,15 @@ For more information please check out [TranslatePress documentation](https://tra
 6. Menu Language Switcher
 
 == Changelog ==
+= 1.1.5 =
+Added support for translation blocks using the css class .translation-block.
+Added possibility to choose a different language as default language seen by website visitors.
+Updated add-ons settings page with the missing add-ons, added Language by GET parameter addon
+Fixed issue with the [language-switcher] in a post or page that broke saving the page when Yoast SEO plugin is active
+Added a plugin notification class and a notification for pretty permalinks
+Added WooCommerce compatibility tag
+Small css improvements
+
 = 1.1.4 =
 * Filter to allow adding new language: 'trp_wp_languages'
 * Fixed issue with get_permalink() in ajax calls that was not returning the propper language
