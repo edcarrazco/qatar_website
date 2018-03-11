@@ -19,6 +19,8 @@
  */
 
 // ** MySQL settings - You can get this info from your web host ** //
+define  ('WPLANG', 'es_ES');
+
 /** The name of the database for WordPress */
 define('DB_NAME', 'db_qatar');
 
